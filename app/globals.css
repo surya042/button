@@ -25,3 +25,30 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.row {
+  @apply
+  flex flex-row
+  gap-[15px]
+  m-[15px]
+  ;
+}
+/* CustomTextField styles */
+.custom-text-field {
+  margin-bottom: 16px;
+}
+
+.custom-label {
+  font-weight: bold;
+}
+
+.custom-input {
+  border: 2px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.custom-input:focus {
+  border-color: #0078d4;
+  outline: none;
+}
